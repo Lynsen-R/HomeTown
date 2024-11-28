@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin:0;
+    margin-top: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.HeroSection{
+    display: flex;
+    background-image: url("images/Cape-Town.webp");
+    background-size: cover;
+    height: 400px;
+    justify-content: center;
+    flex-direction: column;
+    padding : 20px;
+    color : white;
+}
+
+
+.HeroSection h1 h2 p{
+    color: white;
+    text-shadow: 0 0 40% black;
+}
+
+
+#flex-Containter{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
+
+#SectionActivities h2{
+    width : 400px;
+    margin : 20px auto 0 auto;
+}
+#SectionActivities div{
+    margin :10px;
+    padding: 10px;
+    width: 400px;
+    
+    
+}
+#SectionActivities p {
+    flex-wrap: wrap;
+}
+
+#SectionActivities img{
+    width:400px ;
+    height: 300px;
+}
+
+#Gallary{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+#Gallary img{
+    
+    flex: 1 1 calc(33.333% - 20px);
+    height: 200px;
+}
+
+#Footer{
+    text-align: justify ;
+    background-color: black;
+    color : white;
+    }
+
+#Footer p{
+    width : 400px;
+    margin : 0 auto;
+
+}
+
